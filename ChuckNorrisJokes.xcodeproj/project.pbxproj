@@ -8,17 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		CDAA31A62B329D2F00A6EAF7 /* ChuckNorrisJokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA31A52B329D2F00A6EAF7 /* ChuckNorrisJokesApp.swift */; };
-		CDAA31A82B329D2F00A6EAF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA31A72B329D2F00A6EAF7 /* ContentView.swift */; };
+		CDAA31A82B329D2F00A6EAF7 /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA31A72B329D2F00A6EAF7 /* JokeView.swift */; };
 		CDAA31AA2B329D3000A6EAF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAA31A92B329D3000A6EAF7 /* Assets.xcassets */; };
 		CDAA31AD2B329D3000A6EAF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDAA31AC2B329D3000A6EAF7 /* Preview Assets.xcassets */; };
+		CDAA31B42B329D5E00A6EAF7 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA31B32B329D5E00A6EAF7 /* NetworkService.swift */; };
+		CDAA31B62B32B43900A6EAF7 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA31B52B32B43900A6EAF7 /* MainTabView.swift */; };
+		CDAA31B82B32B5F900A6EAF7 /* SavedJokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA31B72B32B5F900A6EAF7 /* SavedJokesView.swift */; };
+		CDAA31BA2B32BA6A00A6EAF7 /* JokeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDAA31B92B32BA6A00A6EAF7 /* JokeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CDAA31A22B329D2F00A6EAF7 /* ChuckNorrisJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChuckNorrisJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDAA31A52B329D2F00A6EAF7 /* ChuckNorrisJokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChuckNorrisJokesApp.swift; sourceTree = "<group>"; };
-		CDAA31A72B329D2F00A6EAF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CDAA31A72B329D2F00A6EAF7 /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
 		CDAA31A92B329D3000A6EAF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDAA31AC2B329D3000A6EAF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CDAA31B32B329D5E00A6EAF7 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		CDAA31B52B32B43900A6EAF7 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		CDAA31B72B32B5F900A6EAF7 /* SavedJokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedJokesView.swift; sourceTree = "<group>"; };
+		CDAA31B92B32BA6A00A6EAF7 /* JokeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,12 @@
 		CDAA31A42B329D2F00A6EAF7 /* ChuckNorrisJokes */ = {
 			isa = PBXGroup;
 			children = (
+				CDAA31B32B329D5E00A6EAF7 /* NetworkService.swift */,
 				CDAA31A52B329D2F00A6EAF7 /* ChuckNorrisJokesApp.swift */,
-				CDAA31A72B329D2F00A6EAF7 /* ContentView.swift */,
+				CDAA31B92B32BA6A00A6EAF7 /* JokeViewModel.swift */,
+				CDAA31B52B32B43900A6EAF7 /* MainTabView.swift */,
+				CDAA31A72B329D2F00A6EAF7 /* JokeView.swift */,
+				CDAA31B72B32B5F900A6EAF7 /* SavedJokesView.swift */,
 				CDAA31A92B329D3000A6EAF7 /* Assets.xcassets */,
 				CDAA31AB2B329D3000A6EAF7 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CDAA31A82B329D2F00A6EAF7 /* ContentView.swift in Sources */,
+				CDAA31A82B329D2F00A6EAF7 /* JokeView.swift in Sources */,
+				CDAA31BA2B32BA6A00A6EAF7 /* JokeViewModel.swift in Sources */,
+				CDAA31B42B329D5E00A6EAF7 /* NetworkService.swift in Sources */,
+				CDAA31B82B32B5F900A6EAF7 /* SavedJokesView.swift in Sources */,
 				CDAA31A62B329D2F00A6EAF7 /* ChuckNorrisJokesApp.swift in Sources */,
+				CDAA31B62B32B43900A6EAF7 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
